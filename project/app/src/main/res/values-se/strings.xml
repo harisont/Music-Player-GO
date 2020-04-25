@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Dialogs / Buttons -->
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="on_close_activity">Vill du stoppa uppspelningen?</string>
+    <string name="queue_songs_clear">Spelkön kommer att rensas. Fortsätt?<string>
+    <string name="loved_songs_clear">Favoritlåtar kommer att rensas. Fortsätt?</string>
+    <string name="loved_song_remove">%1s (%2s) kommer att raderas från favoritlåtar. Fortsätt?</string>
+
+    <!-- Main - Fragments titles -->
+    <string name="artists">Artister</string>
+    <string name="songs">Låtar</string>
+    <string name="folders">Mappar</string>
+
+    <!-- Main - Artists/Folder RecyclerViews items  -->
+    <string name="artist_info">%1d&#160;Album,&#160;%2d&#160;Låtar</string>
+    <string name="folder_info">%1d&#160;Låtar</string>
+
+    <!-- Popup/Menu titles -->
+    <string name="sorting_pref">Sortering</string>
+    <string name="sorting_pref_default">Default</string>
+    <string name="sorting_pref_track">Efter ljudspårnummer. &#8595;</string>
+    <string name="sorting_pref_track_inv">Efter ljudspårnummer. &#8593;</string>
+    <string name="shuffle_am">Blanda alla låtar</string>
+    <string name="shuffle_sa">Blanda valt album</string>
+    <string name="queue_add">Lägg till i spelkön</string>
+    <string name="loved_song_add">Lägg till i favoritlåtar</string>
+    <string name="filter_popup_title">Dölj</string>
+
+    <!-- Queue -->
+    <string name="queue">Spelkön</string>
+    <string name="queue_song_add">%1s läggs till i spelkön!</string>
+    <string name="queue_song_remove">%1s kommer att raderas från spelkön. Fortsätt?</string>
+
+    <!-- Loved songs -->
+    <string name="loved_songs">Favoritlåtar</string>
+    <string name="loved_song_added">%1s (%2s) läggs till i favoritlåtar</string>
+
+    <!-- Messages - Errors -->
+    <string name="error_no_loved_songs">Inga favoritlåtar hittades!</string>
+    <string name="error_no_music">Ingen musik hittades :(</string>
+    <string name="error_not_ready">Musikbiblioteket kunde inte laddas! :( Detta kan bero på SD-kortet har omonteras och tvingat Androids MediaStore att bygga om sina databasposter. Lösning: försök igen senare.</string>
+    <string name="error_unknown_unsupported">Något gick fel! :( Kanske stöds det valda formatet inte, eller är mappen inte tillgänglig (inte appens fel!).</string>
+    <string name="error_media_buttons">Något gick fel! :( Starta om uppspelningen.</string>
+    <string name="error_no_browser">Ingen webbläsare hittades!</string>
+    <string name="error_bad_id">Spela en låt först!</string>
+    <string name="error_no_eq">Ingen utjämnare hittades!</string>
+    <string name="error_no_filter">Ingen filter hittades!</string>
+    <string name="error_no_queue">Spelkön är tom!</string>
+
+    <!-- Messages - Permission rationale -->
+    <string name="perm_rationale">Music Player GO behöver åtkomst till dina filer för att spela musik!</string>
+
+    <!-- Messages - Repeat -->
+    <string name="repeat_enabled">Repeat 1x enabled!</string>
+    <string name="repeat_loop_enabled">Repeat &#8734; enabled!</string>
+    <string name="repeat_disabled">Repeat &#8734; disabled!</string>
+
+    <!-- Preferences - Categories -->
+    <string name="settings">Settings</string>
+    <string name="category_general">General</string>
+
+    <!-- Preferences - Git page -->
+    <string name="open_git_pref_title">GitHub page</string>
+    <string name="open_git_pref_summary">Open the project\'s page for more info :)</string>
+
+    <!-- Preferences - FAQ -->
+    <string name="faq_summary">FAQ and supported media formats :P</string>
+
+    <!-- Preferences - Found songs -->
+    <string name="found_songs_pref_title">Found songs: %1d</string>
+
+    <!-- Preferences - Themes -->
+    <string name="theme_pref_title">Theme</string>
+    <string name="theme_pref_light_title">Light</string>
+    <string name="theme_pref_dark_title">Dark</string>
+    <string name="theme_pref_auto_title">Automatic</string>
+
+    <!-- Preferences - Accent -->
+    <string name="accent_pref_title">Accent</string>
+
+    <!-- Preferences - Edge-to-edge -->
+    <string name="edge_pref_summary_on">Disable edge-to-edge</string>
+    <string name="edge_pref_summary_off">Enable edge-to-edge</string>
+
+    <!-- Preferences - Active tabs -->
+    <string name="active_fragments_pref_title">Active tabs</string>
+    <string name="active_fragments_pref_warning">You can\'t just remove all the tabs! :P</string>
+
+    <!-- Preferences - Fine volume control -->
+    <string name="precise_volume_pref_title">Precise volume control</string>
+    <string name="precise_volume_pref_summary_on">Disable precise volume control</string>
+    <string name="precise_volume_pref_summary_off">Enable precise volume control</string>
+
+    <!-- Preferences - Focus -->
+    <string name="focus_pref_title">Audio focus</string>
+    <string name="focus_pref_summary_on">Disable audio focus management</string>
+    <string name="focus_pref_summary_off">Enable audio focus management</string>
+
+    <!-- Preferences - Headsets -->
+    <string name="headset_pref_title">Headset plug</string>
+    <string name="headset_pref_summary_on">Disable headset plug management</string>
+    <string name="headset_pref_summary_off">Enable headset plug management</string>
+
+    <!-- Preferences - Filters -->
+    <string name="filter_pref_title">Filters</string>
+</resources>
